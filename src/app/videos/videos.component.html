@@ -1,0 +1,15 @@
+<nav class="navigation-bar">
+    <button class="anim" (click)="navigateToHome()"> Lifescreen Animated Tool</button>
+    <!-- <button class="login">Logout</button> -->
+</nav>
+
+<!-- <video controls id="vid" class="vid" muted autoplay oncanplay="this.play()" (ended)="vidEnded()">
+    <source type="video/mp4" [src]="currSrc"/>
+    </video> -->
+<div class="vidOuter">
+    <h1>{{currScene}}</h1>
+    <video controls id="vid" class="vid" autoplay [src]="currSrc" (ended)="vidEnded()">
+            <!-- <source type="video/mp4" [src]="currSrc"/> -->
+        </video>
+
+</div>

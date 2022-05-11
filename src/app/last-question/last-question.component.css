@@ -1,0 +1,17 @@
+.start-button {
+    background-color: rgb(111, 218, 108);
+    color: black;
+    margin: 1%;
+    padding: 1vh;
+}
+
+.stop-button {
+    background-color: rgba(248, 26, 26, 0.637);
+    color: black;
+    margin: 1%;
+    padding: 1vh;
+}
+
+.recAudio {
+    margin: 2vh;
+}

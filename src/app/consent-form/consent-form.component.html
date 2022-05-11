@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<app-header></app-header>
+<div class="main-div">
+    <h1>The Lifescreen Animated Tool</h1>
+    <h3>Parent/Guardian Consent</h3>
+    <p>Hello!</p>
+    <p>My name is Dr. Kaprea Johnson (Virginia Commonwealth University) and I am working with your healthcare provider to complete a new animated evaluation and research project. You and your child are being invited to participate, it is voluntary, and you
+        can decide to not participate now and at any time. Your decision not to take part or to withdraw will involve no penalty or loss of benefits to which you are otherwise entitled.</p>
+    <p><b>What will happen if you participate?</b></p>
+
+    <ol>
+        <p>
+            <li>You will answer a few questions about your child (e.g., age, gender, race, etc.) and 5 brief questions about your household.</li>
+        </p>
+        <p>
+            <li>Your child will watch an animated story and answer questions about their life which should take about 5 to 7 minutes, including their daily living conditions and feelings.</li>
+        </p>
+    </ol>
+    <p>The information you and your child provide will only be shared with your doctor and me (Dr. Kaprea Johnson). After we receive you and your child's responses, we remove your name and your child's name, we remove any information from responses that
+        can be connected to you. The information you provide will be kept confidential and anonymous. The information cannot be connected to you or your child when reported in any reports.</p>
+    <p>If you and your child are willing to participate, please type your name below as your signature</p>
+    <div>
+        <form [formGroup]="consent">
+            <mat-form-field appearance="outline" class="signature">
+                <input matInput required formControlName="sign" placeholder="Enter your First Name and Last Name">
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="date">
+                <input matInput [matDatepicker]="picker1" [formControl]="date" required>
+                <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                <mat-datepicker #picker1></mat-datepicker>
+            </mat-form-field>
+        </form>
+
+
+    </div>
+
+    <p>Click this link to view the consent document in its entirety: <button mat-button color="primary" class="link" (click)="openConsent()">View</button></p>
+    <p>Click here to view an example of the animated cartoon: <button mat-button color="primary" class="link" (click)="openSampleVideo()">View</button></p>
+    <br>
+    <br>
+    <button mat-raised-button class="buttonClass" (click)="navigateToDemo()">Next</button>
+    <br>
+    <br><br>
+    <br>
+</div>

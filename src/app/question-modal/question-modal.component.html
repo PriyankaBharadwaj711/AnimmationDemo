@@ -1,0 +1,29 @@
+<body>
+    <!-- <div class="matContainer"> -->
+    <mat-dialog-content class="mat-typography" class="dialog">
+        <h3> {{currQuestion}} </h3>
+
+        <audio controls autoplay [src]="currSrc" type="audio/mpeg" (ended)="playOptions()" style="width: 100vh; margin: 2vh;">  
+            </audio>
+        <mat-divider></mat-divider>
+        <form [formGroup]="options">
+
+            <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group">
+                <ng-container *ngFor="let ans of answers">
+                    <mat-radio-button [ngClass]="{'active': selectedItem === ans }" id="{{ans}}" class="example-radio-button" [value]="ans" formControleName="answer" (change)="answerSelectHandler($event)">
+                        {{ans}}
+                    </mat-radio-button>
+                </ng-container>
+
+            </mat-radio-group>
+        </form>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+
+        <button mat-button [disabled]="answerSet" mat-dialog-close (click)="closeDialogAndSave()">Save</button>
+        <button mat-button mat-dialog-close (click)="closeDialog()">Close</button>
+    </mat-dialog-actions>
+    <!-- </div> -->
+
+
+</body>

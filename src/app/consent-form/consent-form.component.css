@@ -1,0 +1,67 @@
+    .main-div {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: block;
+        bottom: 5%;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        max-width: 1500px;
+        /* font-size: 40px; */
+        font-size: 4.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        font-family: sanserif;
+    }
+    
+    h3 {
+        font-size: 1.75rem;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center!important;
+        font-family: sanserif;
+    }
+    
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        /* margin-bottom: 0!important; */
+        text-align: justify;
+        font-size: 25px;
+        font-family: sanserif;
+        margin-right: 4vh;
+        margin-left: 4vh;
+    }
+    
+    .signature {
+        margin-left: 2vh;
+        min-width: fit-content;
+        width: 45%;
+    }
+    
+    .date {
+        margin-left: 2vh;
+        width: 45%;
+    }
+    
+    .buttonClass {
+        background-color: #4caf50;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+    }
+    
+    .link {
+        color: rgb(54, 148, 236);
+        font-size: x-large;
+        font-family: sans-serif;
+    }

@@ -1,0 +1,74 @@
+.navigation-bar {
+    background-color: #333333;
+    width: 100%;
+    min-height: 7vh;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+.anim {
+    background-color: #4caf50;
+    color: white;
+    height: 7vh;
+    width: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    border: none;
+}
+
+.login {
+    background-color: #333333;
+    color: white;
+    height: 7vh;
+    width: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 2vh;
+    border: none;
+}
+
+.form-wrap {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.form-wrap label {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+.form-wrap ::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 12px 0 !important;
+}
+
+.form-wrap ::ng-deep .mat-form-field-infix {
+    border-top: 7px solid transparent !important;
+}
+
+::ng-deep .mat-menu-content {
+    padding-top: 0 !important;
+}
+
+::ng-deep .mat-menu-panel {
+    background-color: rgb(241, 241, 241);
+}
+
+.btn-grp {
+    text-align: center;
+}
+
+.buttonClass {
+    background-color: #4caf50;
+    color: white;
+    display: inline-block;
+}

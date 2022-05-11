@@ -1,0 +1,122 @@
+.main-div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 1500px;
+    /* font-size: 40px; */
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: sanserif;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center!important;
+    font-family: sanserif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* margin-bottom: 0!important; */
+    text-align: justify;
+    font-size: 25px;
+    font-family: sanserif;
+    margin-right: 4vh;
+    margin-left: 4vh;
+}
+
+.signature {
+    margin-left: 2vh;
+    min-width: fit-content;
+    width: 45%;
+}
+
+.date {
+    margin-left: 2vh;
+    width: 45%;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    position: absolute;
+    left: 45%;
+}
+
+.buttonClass {
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+.link {
+    color: rgb(54, 148, 236);
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 4px 4px 4px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.formField {
+    margin-left: 2vh;
+    width: 90%;
+}
+
+.lable {
+    margin-left: 2vh;
+    font-weight: bold;
+}
+
+.formLable {
+    margin-left: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-radio-button~.mat-radio-button {
+    margin-left: 2vh;
+}
+
+.radio-group {
+    /* margin-left: 2vh;
+    margin-top: 2vh; */
+    margin: 2vh;
+}
+
+.mat-checkbox {
+    margin-left: 2vh;
+}
+
+.checkbox {
+    float: left;
+    display: inline;
+    margin-left: 2vh;
+}
+
+h5 {
+    color: rgb(212, 33, 33);
+    text-align: center;
+}
